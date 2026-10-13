@@ -1,3 +1,11 @@
+> this repository is a copy of a collection with very useful agent development starter kit and sample implementations. its not activity maintained. so some parts might be outdated, incomplete as of todays ADK requirements. so some developer enthusiasm is required here and there.
+
+Further Good Sources: [google-adk-python](https://github.com/google/adk-python)
+
+have fun.
+
+---
+
 # Agent Development Kit (ADK) Samples
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
