@@ -10,19 +10,19 @@ readme = "README.md"
 requires-python = ">=3.12"
 
 dependencies = [
-    "python-dotenv>=1.0.1",
-    "google-adk>=1.31",
+    "python-dotenv>=1.2.4",
+    "google-adk>=2.11.0",
     "immutabledict>=4.2.1",
-    "sqlglot>=26.10.1",
-    "db-dtypes>=1.4.2",
-    "regex>=2024.11.6",
+    "sqlglot>=30.22.0",
+    "db-dtypes>=1.7.2",
+    "regex>=2026.9.29",
     "tabulate>=0.9.0",
-    "google-cloud-aiplatform[adk,agent-engines]>=1.93.0",
-    "absl-py>=2.2.2",
-    "pydantic>=2.11.3",
-    "pandas>=2.3.0",
-    "numpy>=2.3.1",
-    "toolbox-core>=0.3.0",
+    "google-cloud-aiplatform[adk,agent-engines]>=2.4.0",
+    "absl-py>=2.5.1",
+    "pydantic>=2.14.0",
+    "pandas>=3.0.6",
+    "numpy>=2.5.3",
+    "toolbox-core>=1.4.0",
     "opentelemetry-sdk>=1.36.0",
     "opentelemetry-exporter-otlp-proto-http>=1.36.0",
     "pg8000>=1.31.2",
@@ -30,11 +30,11 @@ dependencies = [
 
 [dependency-groups]
 dev = [
-    "google-cloud-aiplatform[adk,agent-engines,evaluation]>=1.93.0",
-    "pytest>=8.3.5",
-    "pytest-asyncio>=0.26.0",
+    "google-cloud-aiplatform[adk,agent-engines,evaluation]>=2.4.0",
+    "pytest>=9.1.1",
+    "pytest-asyncio>=1.4.0",
     "google-adk[eval]>=1.31",
-    "ruff>=0.4.6",
+    "ruff>=0.17.0",
     "agent-starter-pack>=0.14.1",
 ]
 
